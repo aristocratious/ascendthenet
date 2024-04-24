@@ -1,0 +1,7 @@
+backend:
+  name: github
+  branch: main # change this to your branch
+  repo: dorukgezici/astro-decap-cms-oauth # change this to your repo
+  site_domain: astro-decap-cms-oauth.vercel.app # change this to your domain
+  base_url: https://astro-decap-cms-oauth.vercel.app # change this to your prod URL
+  auth_endpoint: oauth # the oauth route provided by the integration
