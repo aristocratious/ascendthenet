@@ -15,6 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const hasExternalScripts = false;
 const whenExternalScripts = (items = []) => hasExternalScripts ? Array.isArray(items) ? items.map(item => item()) : [items()] : [];
 
+
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
@@ -59,4 +60,6 @@ export default defineConfig({
       }
     }
   }
-});
+}
+
+);
